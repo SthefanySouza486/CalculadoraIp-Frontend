@@ -1,0 +1,88 @@
+/* Fundo principal da tela */
+:host {
+  display: block;
+  min-height: 100vh;
+  background-color: #121212; /* Fundo escuro */
+  padding-top: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  font-family: Arial, sans-serif;
+  color: #e0e0e0; /* Texto claro */
+}
+
+h1 { text-align: center; color: #DB7093; } /* Azul claro para o título */
+p { text-align: center; color: #a0a0a0; }
+
+.form-card, .result-card {
+  background: #1e1e1e; /* Fundo dos cards mais claro que o fundo da tela */
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5); /* Sombra mais forte */
+  margin-top: 20px;
+  border: 1px solid #333; /* Borda sutil */
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label { font-weight: bold; margin-bottom: 5px; color: #ccc; }
+
+input {
+  padding: 10px;
+  background-color: #2d2d2d; /* Fundo do input escuro */
+  color: #ffffff; /* Texto do input branco */
+  border: 1px solid #444;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #777; /* Cor do texto de exemplo */
+}
+
+input:focus {
+  outline: none;
+  border-color: #DB7093; /* Borda azul ao clicar */
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #DB7093;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+button:hover { background-color: #DB7093; }
+
+.result-card h3 { 
+  margin-top: 0; 
+  color: #DC143C; /* Verde mais vibrante para destaque no escuro */
+  border-bottom: 1px solid #444; 
+  padding-bottom: 10px;
+}
+
+.result-card ul { list-style-type: none; padding: 0; }
+.result-card li { padding: 8px 0; border-bottom: 1px solid #333; }
+
+.error-msg {
+  background-color: #4a191e; /* Fundo vermelho escuro */
+  color: #ffb3b8; /* Texto vermelho claro */
+  border: 1px solid #721c24;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+  text-align: center;
+}
