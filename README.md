@@ -45,4 +45,4 @@ Certifique-se de ter o **Node.js** (versão 20+ recomendada) e o **Angular CLI**
 
 Este projeto foi desenvolvido em uma arquitetura de repositórios separados (Split Stack). Todo o cálculo lógico bit a bit (operações AND, OR) é feito pelo backend desenvolvido em **Java com Spring Boot**.
 
-🔗 **Acesse o repositório do Backend aqui:** [Link para o seu repositório do backend]
+🔗 **Acesse o repositório do Backend aqui:** https://github.com/SthefanySouza486/CalculadoraIp-Backend.git
